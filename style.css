@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Anonymous+Pro:wght@400;700&family=Montserrat:wght@300;400;500;600;700;800;900&family=Roboto:wght@100&display=swap");
+@import url(/css/footer.css);
+@import url(/css/category.css);
+@import url(/css/media-queries.css);
+@import url(/css/questions.css);
+@import url(/css/result.css);
+
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
+.header-nav ul {
+  font-size: 1.2rem;
+}
+
+.main-container {
+  min-height: 75vh;
+  width: 70%;
+  margin: 1.5rem auto;
+}
+
+.hero-text {
+  justify-content: center;
+  width: 70%;
+}
+
+.header-nav ul li a:hover,
+.logo a:hover {
+  color: var(--text-color);
+  transition: 0.5s;
+}

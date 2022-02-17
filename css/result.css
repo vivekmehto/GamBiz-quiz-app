@@ -1,0 +1,16 @@
+.result-container {
+  font-size: 1.5rem;
+}
+
+.result-container .list li:hover {
+  color: var(--black);
+  cursor: default;
+}
+
+.correct {
+  background-color: var(--green-xl);
+}
+
+.wrong {
+  background-color: var(--red-xl);
+}

@@ -1,0 +1,13 @@
+a {
+  color: var(--text-color);
+}
+
+.category-container {
+  flex-wrap: wrap;
+}
+
+.card:hover {
+  cursor: pointer;
+  opacity: 0.9;
+  transition: 0.3s;
+}

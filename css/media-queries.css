@@ -1,21 +1,47 @@
 @media only screen and (max-width: 668px) {
   .main-container {
     gap: 1rem;
+    padding: 0;
   }
+
+  .main-container .hero-text {
+    width: 100%;
+  }
+
   .main-container .list {
     font-size: 1rem;
   }
+
   .footer-icons i {
     font-size: 1rem;
   }
+
   .hero-img {
     display: none;
   }
-  .hero-text,
-  .main-container {
-    width: 100%;
-  }
+
   .head-1 {
     font-size: 1.5rem;
+  }
+
+  .head-2 {
+    font-size: 1.3rem;
+  }
+  h2 {
+    font-size: 1.2rem;
+  }
+
+  h3 {
+    font-size: 1rem;
+  }
+
+  .list li {
+    margin: 0;
+    padding: 0;
+  }
+
+  .question-container p,
+  .result-container p {
+    font-size: 1rem;
   }
 }
